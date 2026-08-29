@@ -20,3 +20,20 @@ List EnclaveConnectionResource resources by subscription ID
     ```bash
         mission enclave-connection list --resource-group rgopenapi
     ```
+
+### [2026-04-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5taXNzaW9uL2VuY2xhdmVjb25uZWN0aW9ucw==/2026-04-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.mission/enclaveconnections 2026-04-01 -->
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.mission/enclaveconnections 2026-04-01 -->
+
+#### examples
+
+- EnclaveConnection_ListBySubscription
+    ```bash
+        mission enclave-connection list
+    ```
+
+- EnclaveConnection_ListByResourceGroup
+    ```bash
+        mission enclave-connection list --resource-group rgopenapi
+    ```

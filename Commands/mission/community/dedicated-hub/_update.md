@@ -14,3 +14,14 @@ Update a DedicatedHubResource
     ```bash
         mission community dedicated-hub update --resource-group TestResourceGroup --community-name TestCommunity --dedicated-hub-name TestDedicatedHub
     ```
+
+### [2026-04-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5taXNzaW9uL2NvbW11bml0aWVzL3t9L2RlZGljYXRlZGh1YnMve30=/2026-04-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.mission/communities/{}/dedicatedhubs/{} 2026-04-01 -->
+
+#### examples
+
+- DedicatedHub_CreateOrUpdate
+    ```bash
+        mission community dedicated-hub update --resource-group TestResourceGroup --community-name TestCommunity --dedicated-hub-name TestDedicatedHub
+    ```

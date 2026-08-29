@@ -14,3 +14,14 @@ Get a EnclaveEndpointResource
     ```bash
         mission virtual-enclave enclave-endpoint show --resource-group rgopenapi --virtual-enclave-name TestMyEnclave --enclave-endpoint-name TestMyEnclaveEndpoint
     ```
+
+### [2026-04-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5taXNzaW9uL3ZpcnR1YWxlbmNsYXZlcy97fS9lbmNsYXZlZW5kcG9pbnRzL3t9/2026-04-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.mission/virtualenclaves/{}/enclaveendpoints/{} 2026-04-01 -->
+
+#### examples
+
+- EnclaveEndpoints_Get
+    ```bash
+        mission virtual-enclave enclave-endpoint show --resource-group rgopenapi --virtual-enclave-name TestMyEnclave --enclave-endpoint-name TestMyEnclaveEndpoint
+    ```

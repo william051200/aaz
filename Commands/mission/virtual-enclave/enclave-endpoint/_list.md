@@ -20,3 +20,20 @@ List EnclaveEndpointResource resources by subscription ID
     ```bash
         mission virtual-enclave enclave-endpoint list --resource-group rgopenapi --virtual-enclave-name TestMyEnclave
     ```
+
+### [2026-04-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5taXNzaW9uL3ZpcnR1YWxlbmNsYXZlcy97fS9lbmNsYXZlZW5kcG9pbnRz/2026-04-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.mission/virtualenclaves/{}/enclaveendpoints 2026-04-01 -->
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.mission/virtualenclaves/{}/enclaveendpoints 2026-04-01 -->
+
+#### examples
+
+- EnclaveEndpoints_ListBySubscription
+    ```bash
+        mission virtual-enclave enclave-endpoint list --virtual-enclave-name TestMyEnclave
+    ```
+
+- EnclaveEndpoints_ListByEnclaveResource
+    ```bash
+        mission virtual-enclave enclave-endpoint list --resource-group rgopenapi --virtual-enclave-name TestMyEnclave
+    ```

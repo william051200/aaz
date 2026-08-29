@@ -20,3 +20,20 @@ List CommunityEndpointResource resources by subscription ID
     ```bash
         mission community community-endpoint list --resource-group rgopenapi --community-name TestMyCommunity
     ```
+
+### [2026-04-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5taXNzaW9uL2NvbW11bml0aWVzL3t9L2NvbW11bml0eWVuZHBvaW50cw==/2026-04-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.mission/communities/{}/communityendpoints 2026-04-01 -->
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.mission/communities/{}/communityendpoints 2026-04-01 -->
+
+#### examples
+
+- CommunityEndpoints_ListBySubscription
+    ```bash
+        mission community community-endpoint list --community-name TestMyCommunity
+    ```
+
+- CommunityEndpoints_ListByCommunityResource
+    ```bash
+        mission community community-endpoint list --resource-group rgopenapi --community-name TestMyCommunity
+    ```
