@@ -15,3 +15,7 @@ Check the give namespace name availability.
 ### [2026-01-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5zZXJ2aWNlYnVzL2NoZWNrbmFtZWF2YWlsYWJpbGl0eQ==/2026-01-01.xml) **Stable**
 
 <!-- mgmt-plane /subscriptions/{}/providers/microsoft.servicebus/checknameavailability 2026-01-01 -->
+
+### [2026-07-01-preview](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5zZXJ2aWNlYnVzL2NoZWNrbmFtZWF2YWlsYWJpbGl0eQ==/2026-07-01-preview.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.servicebus/checknameavailability 2026-07-01-preview -->
