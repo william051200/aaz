@@ -13,3 +13,20 @@ Retrieves relevant information about all Microsoft Connected Cache for Enterpris
 
 <!-- mgmt-plane /subscriptions/{}/providers/microsoft.connectedcache/enterprisemcccustomers 2024-11-30-preview -->
 <!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.connectedcache/enterprisemcccustomers 2024-11-30-preview -->
+
+### [2026-06-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5jb25uZWN0ZWRjYWNoZS9lbnRlcnByaXNlbWNjY3VzdG9tZXJz/2026-06-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.connectedcache/enterprisemcccustomers 2026-06-01 -->
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.connectedcache/enterprisemcccustomers 2026-06-01 -->
+
+#### examples
+
+- List the MCC Enterprise resources in a resource group
+    ```bash
+        mcc ent resource list --resource-group MyResourceGroup
+    ```
+
+- List every MCC Enterprise resource in the subscription
+    ```bash
+        mcc ent resource list
+    ```
