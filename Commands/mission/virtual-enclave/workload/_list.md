@@ -20,3 +20,20 @@ List WorkloadResource resources by subscription ID
     ```bash
         mission virtual-enclave workload list --resource-group rgopenapi --virtual-enclave-name TestMyEnclave
     ```
+
+### [2026-04-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5taXNzaW9uL3ZpcnR1YWxlbmNsYXZlcy97fS93b3JrbG9hZHM=/2026-04-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.mission/virtualenclaves/{}/workloads 2026-04-01 -->
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.mission/virtualenclaves/{}/workloads 2026-04-01 -->
+
+#### examples
+
+- Workload_ListBySubscription
+    ```bash
+        mission virtual-enclave workload list --virtual-enclave-name TestMyEnclave
+    ```
+
+- Workload_ListByEnclaveResource
+    ```bash
+        mission virtual-enclave workload list --resource-group rgopenapi --virtual-enclave-name TestMyEnclave
+    ```

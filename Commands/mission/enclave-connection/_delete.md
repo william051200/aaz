@@ -14,3 +14,14 @@ Delete a EnclaveConnectionResource
     ```bash
         mission enclave-connection delete --resource-group rgopenapi --enclave-connection-name TestMyEnclaveConnection
     ```
+
+### [2026-04-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5taXNzaW9uL2VuY2xhdmVjb25uZWN0aW9ucy97fQ==/2026-04-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.mission/enclaveconnections/{} 2026-04-01 -->
+
+#### examples
+
+- EnclaveConnection_Delete
+    ```bash
+        mission enclave-connection delete --resource-group rgopenapi --enclave-connection-name TestMyEnclaveConnection
+    ```

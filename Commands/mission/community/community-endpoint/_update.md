@@ -14,3 +14,14 @@ Update a CommunityEndpointResource
     ```bash
         mission community community-endpoint update --resource-group rgopenapi --community-name TestMyCommunity --community-endpoint-name TestMyCommunityEndpoint
     ```
+
+### [2026-04-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5taXNzaW9uL2NvbW11bml0aWVzL3t9L2NvbW11bml0eWVuZHBvaW50cy97fQ==/2026-04-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.mission/communities/{}/communityendpoints/{} 2026-04-01 -->
+
+#### examples
+
+- CommunityEndpoints_CreateOrUpdate
+    ```bash
+        mission community community-endpoint update --resource-group rgopenapi --community-name TestMyCommunity --community-endpoint-name TestMyCommunityEndpoint
+    ```

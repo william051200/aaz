@@ -14,3 +14,14 @@ Create a TransitHubResource
     ```bash
         mission community transit-hub create --resource-group rgopenapi --community-name TestMyCommunity --transit-hub-name TestThName --state PendingApproval --transit-option "{type:ExpressRoute,params:{scale-units:1}}" --security-provider AzureFirewall --tags "{Tag1:Value1}" --location westcentralus
     ```
+
+### [2026-04-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5taXNzaW9uL2NvbW11bml0aWVzL3t9L3RyYW5zaXRodWJzL3t9/2026-04-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.mission/communities/{}/transithubs/{} 2026-04-01 -->
+
+#### examples
+
+- TransitHub_CreateOrUpdate
+    ```bash
+        mission community transit-hub create --resource-group rgopenapi --community-name TestMyCommunity --transit-hub-name TestThName --state PendingApproval --transit-option "{type:ExpressRoute,params:{scale-units:1}}" --security-provider AzureFirewall --tags "{Tag1:Value1}" --location westcentralus
+    ```

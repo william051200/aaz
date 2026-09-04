@@ -14,3 +14,14 @@ List ApprovalResource resources by parent
     ```bash
         mission approval list --resource-uri subscriptions/c64f6eca-bdc5-4bc2-88d6-f8f1dc23f86c/resourceGroups/TestMyRg/providers/Microsoft.Mission/enclaveconnections/TestMyEnclaveConnection
     ```
+
+### [2026-04-01](/Resources/mgmt-plane/L3tyZXNvdXJjZXVyaX0vcHJvdmlkZXJzL21pY3Jvc29mdC5taXNzaW9uL2FwcHJvdmFscw==/2026-04-01.xml) **Stable**
+
+<!-- mgmt-plane /{resourceuri}/providers/microsoft.mission/approvals 2026-04-01 -->
+
+#### examples
+
+- Approval_ListByParent
+    ```bash
+        mission approval list --resource-uri subscriptions/c64f6eca-bdc5-4bc2-88d6-f8f1dc23f86c/resourceGroups/TestMyRg/providers/Microsoft.Mission/enclaveconnections/TestMyEnclaveConnection
+    ```

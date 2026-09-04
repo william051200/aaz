@@ -14,3 +14,14 @@ Remove the user or system managed identities.
     ```bash
         mission virtual-enclave identity remove --resource-group rgopenapi --virtual-enclave-name TestMyEnclave
     ```
+
+### [2026-04-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5taXNzaW9uL3ZpcnR1YWxlbmNsYXZlcy97fQ==/2026-04-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.mission/virtualenclaves/{} 2026-04-01 identity -->
+
+#### examples
+
+- VirtualEnclave_CreateOrUpdate
+    ```bash
+        mission virtual-enclave identity remove --resource-group rgopenapi --virtual-enclave-name TestMyEnclave
+    ```

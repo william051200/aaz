@@ -14,3 +14,14 @@ Create a WorkloadResource
     ```bash
         mission virtual-enclave workload create --resource-group rgopenapi --virtual-enclave-name TestMyEnclave --workload-name TestMyWorkload --resource-group-collection "[]" --tags "{TestKey:TestValue}" --location westcentralus
     ```
+
+### [2026-04-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5taXNzaW9uL3ZpcnR1YWxlbmNsYXZlcy97fS93b3JrbG9hZHMve30=/2026-04-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.mission/virtualenclaves/{}/workloads/{} 2026-04-01 -->
+
+#### examples
+
+- Workload_CreateOrUpdate
+    ```bash
+        mission virtual-enclave workload create --resource-group rgopenapi --virtual-enclave-name TestMyEnclave --workload-name TestMyWorkload --resource-group-collection "[]" --tags "{TestKey:TestValue}" --location westcentralus
+    ```

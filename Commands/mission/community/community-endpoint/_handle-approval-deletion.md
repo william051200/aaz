@@ -14,3 +14,14 @@ Callback that triggers on approval deletion state change.
     ```bash
         mission community community-endpoint handle-approval-deletion --resource-group rgopenapi --community-name TestMyCommunity --community-endpoint-name TestMyCommunityEndpoint --resource-request-action Create
     ```
+
+### [2026-04-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5taXNzaW9uL2NvbW11bml0aWVzL3t9L2NvbW11bml0eWVuZHBvaW50cy97fS9oYW5kbGVhcHByb3ZhbGRlbGV0aW9u/2026-04-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.mission/communities/{}/communityendpoints/{}/handleapprovaldeletion 2026-04-01 -->
+
+#### examples
+
+- CommunityEndpoints_HandleApprovalDeletion
+    ```bash
+        mission community community-endpoint handle-approval-deletion --resource-group rgopenapi --community-name TestMyCommunity --community-endpoint-name TestMyCommunityEndpoint --resource-request-action Create
+    ```
